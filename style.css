@@ -1,0 +1,84 @@
+
+:root {
+  --page-1-color: steelblue;
+  --page-2-color: tan;
+  --page-3-color: teal;
+  --page-4-color: slateblue;
+  --animate-speed: 2s;
+}
+
+/* General */
+body {
+  font-family: Arial, Helvetica, sans-serif;  line-height: 1.4;
+  /* gets ride of scroll bar */
+  overflow:hidden;
+  margin:0; 
+  padding:0;
+  color:#fff;
+  line-height:1.4; 
+
+
+}
+
+.Page {
+  display:flex; 
+  flex-direction:column;
+  justify-content: center;
+  align-items:center; 
+  text-align: center;
+  height:100vh;
+  /* top and bottom: 0 left and right 4rem */
+  padding: 0 4rem;
+}
+
+.btn {
+
+  display:inline-block; 
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background-color:#f4f4f4;
+  color:#333;
+  border:none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  
+}
+
+.background-dark {
+
+  color:#fff; 
+  background:#333;
+}
+
+/* Page Colors */
+#Page-1 {
+  background-color:var(--page-1-color); 
+}
+#Page-2 {
+  background-color:var(--page-2-color);
+}
+#Page-3 {
+  background-color:var(--page-3-color);
+}
+#Page-4 {
+  background-color:var(--page-4-color);
+}
+
+/* Page Specs */
+.Page h1 {
+
+  font-size: 3.7rem;
+  line-height:1.2; 
+  margin:1rem;
+
+}
+
+.Page p {
+
+  font-size: 1.3rem;
+
+}
+
+
+
+
